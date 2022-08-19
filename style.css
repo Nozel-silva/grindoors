@@ -21,9 +21,9 @@
 }
 
 .cookie-btn {
-  background: #e84118;
+  background: white;
   border: 0;
-  color: #f5f6fa;
+  color: black;
   padding: 12px 48px;
   font-size: 12px;
   margin-bottom: 16px;
@@ -40,6 +40,7 @@
     
   }
   #section1 {padding-top:25px;color: #fff; background-color: black;}
+  
   #section2 {padding-top:25px;color: purple;}
   #section3 {padding-top:25px;color: #fff; background-color: grey;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
@@ -58,7 +59,7 @@
   }
 .G{
     font-size:30px;
-    color:gold;
+    color:white;
 }
 #g{
     color:white;
