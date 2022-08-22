@@ -9,18 +9,22 @@
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/jpeg" href="airdp.jpg">
-  <link href ="style.css"></link>
+  <link href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   
   <script src='http://use.edgefonts.net/creepster.js'></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
     <title>Grindoors</title>
 </head>
 <style type="text/css">
-  Nft{
+  
+    
+
+.Nft{
     font-size:30px;
     color:black;
 }
@@ -28,27 +32,10 @@
     font-size:30px;
     color:black;
 }
-  body {
-    margin:3%;  
-} 
-   
-     
-     
-     
-   .nav{
-  background:black;
-    color: ghostwhite;
-    opacity: 1;
-  }
-.navbar-brand{
-    color:white;
-}
-.navbar-brand{
-    font-family:monospace;}
     
-    #myNavbar{
-        font-family:monospace
-    }
+     
+     
+     
 
 
 h2{
@@ -88,19 +75,22 @@ marquee i{
   animation-duration: 5s;
    animation-iteration-count: infinite;
 }
-.G{
-    font-size:30px;
-    color:gold;
-}
-#g{
-    color:white;
+
+
+@keyframes colorchange{0%{color: black; } 25%{color:darkred;} 50%{color: red;}100%{color:salmon;}}
+.image{
+  float: right;
 }
 
-.D{
-font-size:30px;
-    color:ghostwhite; 
+.fb{
+    margin-top:50px;
+    position:relative;
 }
- .social a{
+  image{
+      margin:14px;
+  }
+     
+     .social a{
     float:right ;
     color:black;
     font-size:20px;
@@ -129,32 +119,10 @@ center {
       font-size:22px;
   }
 
+     h4{
+         margin-left:3%;
+     }
      
-     
-     
-  footer{
-      position: fixed;
-      
-      width: 100%;
-      margin-top:230px;
-  }   
-
-
-
-
-
-@keyframes colorchange{0%{color: black; } 25%{color:darkred;} 50%{color: red;}100%{color:salmon;}}
-.image{
-  float: right;
-}
-
-.fb{
-    margin-top:50px;
-    position:relative;
-}
-  image{
-      margin:14px;
-  }
      
   footer{
       position: fiexed;
@@ -165,61 +133,55 @@ center {
 
 
 </style>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
 
-  <div class="nav">
+  <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a id="g"class="navbar-brand" href="#"><b class="G">G</b>rin<b class="D">D</b>ooors</a>  
-    
+       
+      <a id="g"class="navbar-brand" href="#"><b class="G">G</b>rinDooors <i id="cog" class="fa fa-cogs"></i></a>
+
+    </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav" >
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Services</a></li>
           
-         <li><a href="index.html">Home</a></li>
-          <li><a href="#section42">services</a></li>
-    
           
-        </ul>
-      </div>
     </div>
     
   </div>
-</nav>     
+</nav>    
+<body>  
 <div class="fb">  
 <marquee behavior="scroll" direction="left">
  <i style="font-size: 30px; " > Ensure you are visiting Grindoors.com</i></div>
 </marquee>
- <li><a href="Airdrops.html">Airdrops</a></li>
-<h2>NFT</h2>
+<h4><a href="Airdrops.html">Airdrops</a></h4>
+<h2>Nft projects(ongoing)</h2> 
 <div id="info">
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     </div>
-       <ul>
-           <li>Name: <i>Invasion punks</i></li>  
+       <ul> 
+       <li>Name: <i>Invasion punks</i></li>
        <b>discord url:</b><br />
        <b>Launch Date:</b><br />
        <b>Mint date:</b><br />
-       <b>Difficulty:</b><br />
+       <b>Difficulty:</b>
+</li>
+</div>
+<br />
        </ul>
 </div>
 
 </div>
-<hr />
-
-
-
-<script src="main.js">
-   
-   
-</script>
-
-
+<br />
 <footer> 
 <center> 
 <div class="social"> 
@@ -256,6 +218,9 @@ center {
        </center> 
 
 </footer>
-
 </body>
+
+
 </html>
+
+
