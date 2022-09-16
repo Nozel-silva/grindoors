@@ -31,17 +31,22 @@
   cursor: pointer;
 }
 
-
+#cog{ 
+    color:white;
+    font-size:25px;
+}
 
 
 
   body {
-    position: relative; 
+    position: relative;  
+    
+    
     
   }
   #section1 {padding-top:25px;color: #fff; background-color: black;}
-  
-  #section2 {padding-top:25px;color: purple;}
+ 
+  #section2 {padding-top:25px;color: purple;} 
   #section3 {padding-top:25px;color: #fff; background-color: grey;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
@@ -53,25 +58,30 @@
 }
   .link{
       text-decoration:underline ;
-      color:white;
+      color:white ; 
       font-weight:bold;
       font-size:22px;
   }
 .G{
     font-size:30px;
-    color:white;
+    color:white; 
 }
 #g{
-    color:white;}
-.social a {
+    color:white;
+font-weight:white;
+}
+
+
+
+.social a{
     float:right ;
     color:black;
     font-size:20px;
-    width:20%;
+    width:25%;
     padding-bottom:20px;
     padding-left:5px;
-    padding-top:15px;}
- 
+    padding-top:15px;
+}  
 center { 
     color:black;
     font-size:20px;
@@ -79,6 +89,7 @@ center {
     background-color:lavender;
     
     }
+
 .grdt{
     font-size:13px;
 }
@@ -95,7 +106,6 @@ img{
     border:3px solid white;
     border-radius:10px;
 }
-
 
 
 /* ardop*/
