@@ -1,4 +1,29 @@
+
 /*index*/
+
+@media (min-width: 500px){
+       #section1 {padding-top:25px;color: #fff; background-color: black; font-family: monospace; text-align: center; word-wrap: break-word;}
+  
+  #section2 {padding-top:25px;color: purple;text-align: center;word-wrap: break-word;}
+  #section3 {padding-top:25px;color: #fff; background-color: grey; font-family: monospace;text-align: center;word-wrap: break-word;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4; font-family: monospace;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688; font-family: monospace;}
+  
+
+
+
+   h1{
+
+ animation-name: colorchange;
+  animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+ 
+@keyframes colorchange{0%{color: lavender; } 25%{color:green;} 50%{color: brown;}100%{color:salmon;}}
+
+    }
+
 .cookie-container {
   position: fixed;
   bottom: -100%;
