@@ -68,9 +68,9 @@
     
     
   }
-   #section1 {padding-top:25px;color: #fff; background-color: black; font-family: monospace;}
+   #section1 {padding-top:25px;color: #fff; background-color: black; font-family: monospace;  }
   
-  #section2 {padding-top:25px;color: purple;}
+  #section2 {padding-top:25px;color: purple;background-color:lavender;monospace;  }
   #section3 {padding-top:25px;color: #fff; background-color: grey; font-family: monospace;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4; font-family: monospace;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688; font-family: monospace;}
@@ -111,7 +111,7 @@ center {
     color:black;
     font-size:20px;
     padding-bottom:20px;
-    background-color:lavender;
+    
     
     }
 
