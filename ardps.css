@@ -1,9 +1,9 @@
 /* ardop*/
  #info li{
-    word-wrap:break;
+
     clear:both;
     padding-top:14px;
-    margin-right: 3%;
+   
 } 
  
 .Nft{
@@ -16,7 +16,7 @@
 }
     
 p{
-    font-family:Times;
+    font-family:Calibri;
     }
 
 
