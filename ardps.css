@@ -1,0 +1,264 @@
+/* ardop*/
+ #info li{
+    word-wrap:break;
+    clear:both;
+    padding-top:14px;
+    margin-right: 3%;
+} 
+ 
+.Nft{
+    font-size:30px;
+    color:black;
+}
+.Airdrops{
+    font-size:30px;
+    color:black;
+}
+    
+p{
+    font-family:Times;
+    }
+
+
+#info{
+   margin-top:9px;
+   padding:8px;
+   word-spacing:5px;
+}
+hr{
+  color: ;
+}
+ 
+a{
+  color: blue;
+}
+a:hover{
+  color: red;
+}
+marquee i{
+
+ animation-name: colorchange;
+  animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+h4{
+    margin-left:14px;
+}
+ 
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #f5f6fa;
+}
+
+.cookie-btn {
+  background: white;
+  border: 0;
+  color: black;
+  padding: 12px 48px;
+  font-size: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#cog{ 
+    color:white;
+    font-size:25px;
+}
+
+
+
+
+@keyframes colorchange{0%{color: black; } 25%{color:darkred;} 50%{color: red;}100%{color:salmon;}}
+.image{
+  float: right;
+}
+
+.fb{
+    margin-top:50px;
+    position:relative;
+}
+  image{
+      margin:14px;
+  }
+       .fb{
+    margin-top:50px;
+    position:relative;
+}
+  .link{
+      text-decoration:underline ;
+      color:white ; 
+      font-weight:bold;
+      font-size:22px;
+  }
+.G{
+    font-size:30px;
+    color:white; 
+}
+#g{
+    color:white;
+font-weight:white;
+}
+
+
+
+.social a{
+    float:right ;
+    color:black;
+    font-size:20px;
+    width:25%;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-top:15px;
+}  
+center { 
+    color:black;
+    font-size:20px;
+    padding-bottom:20px;
+    background-color:lavender;
+    
+    }
+
+.grdt{
+    font-size:13px;
+}
+
+
+  .og{
+      text-decoration:underline ;
+      color:deepskyblue; 
+      font-weight:bold ;
+      font-size:22px;
+  }
+
+img{
+    border:3px solid black;
+    border-radius:10px;
+}
+
+
+    
+
+/*update*/
+
+.Nft{
+    font-size:30px;
+    color:black;
+}
+.Airdrops{
+    font-size:30px;
+    color:black;
+}
+    
+     
+     
+     
+
+
+h2{
+  margin-top: 22px;
+margin-left: 5%;
+text-decoration: underline;
+color:black;
+font-family:courier;
+}
+p{
+    font-family:courier;
+    font-weight:bold ;
+}
+ .info ul{
+    padding-left:10x;
+    padding-top:10px;
+    
+}
+#myInput{
+    margin-left:10px;
+}
+
+
+b{
+  margin-top: 12px;
+  
+}
+hr{
+  color: ;
+}
+ 
+a{
+  color: blue;
+}
+a:hover{
+  color: blue;
+}
+@media(landscape) (max-width:500PX;){
+Height:500px;
+}
+
+marquee i{
+
+ animation-name: colorchange;
+  animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes colorchange{0%{color: black; } 25%{color:darkred;} 50%{color: red;}100%{color:salmon;}}
+.image{
+  float: right;
+}
+
+.fb{
+    margin-top:50px;
+    position:relative;
+}
+  image{
+      margin:14px;
+  }
+     
+     .social a{
+    float:right ;
+    color:black;
+    font-size:20px;
+    width:25%;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-top:15px;
+}  
+center { 
+    color:black;
+    font-size:20px;
+    padding-bottom:20px;
+    background-color:lavender;
+    
+    }
+
+.grdt{
+    font-size:13px;
+}
+
+
+  .og{
+      text-decoration:underline ;
+      color:deepskyblue; 
+      font-weight:bold ;
+      font-size:22px;
+  }
+
+     h4{
+         margin-left:3%;}
+         h4 a{
+    text-decoration:underline ;
+}
+    
+     }
+     
+     
+  footer{
+      position: fiexed;
+      
+      width: 100%;
+      margin-top:230px;
+  }   
