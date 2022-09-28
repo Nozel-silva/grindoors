@@ -32,7 +32,7 @@
   color: #f5f6fa;
   padding: 0 14px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
+  padding-top:6px;
   transition: 400ms;
 }
 
