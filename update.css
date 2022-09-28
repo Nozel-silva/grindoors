@@ -1,54 +1,17 @@
-@media(min-width: 500px){
+  @media(min-width: 500px){
     p{
     text-align: center;
     margin-top: px;
     border: 1px solid blue;
-    box-shadow: 10px 10px grey;
+    box-shadow: -10px 10px grey;
     padding: 7px;
     background-color:black;
     color: wheat;
     border-radius: 15px;
   }
-    #info { 
-
-    }
+        }
+   
  
-.cookie-container {
-  position: fixed;
-  bottom: -100%;
-  left: 0;
-  right: 0;
-  background: #2f3640;
-  color: #f5f6fa;
-  padding: 0 32px;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
-  transition: 400ms;
-}
-
-.cookie-container.active {
-  bottom: 0;
-}
-
-.cookie-container a {
-  color: #f5f6fa;
-}
-
-.cookie-btn {
-  background: white;
-  border: 0;
-  color: black;
-  padding: 12px 48px;
-  font-size: 12px;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-
-
-
-
 .Nft{
     font-size:30px;
     color:black;
@@ -58,30 +21,8 @@
     color:black;
 }
     
-p{
-    font-family:courier;
-    font-weight:bold ;
-}
-
-
-#info{
-   margin-top:9px;
-   padding:8px;
-   word-spacing:5px;
-}
-b{
-  margin-top: 12px;
-  
-}
-hr{
-  color: ;
-}
- 
-a{
-  color: blue;
-}
 a:hover{
-  color: red;
+  color: gold;
 }
 marquee i{
 
@@ -103,9 +44,10 @@ h4{
     position:relative;
 }
   image{
-      margin:14px;}
-
-.social a{
+      margin:14px;
+  }
+     
+     .social a{
     float:right ;
     color:black;
     font-size:20px;
@@ -119,10 +61,7 @@ center {
     font-size:20px;
     padding-bottom:20px;
     background-color:lavender;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    height: auto;
+    
     }
 
 .grdt{
@@ -136,16 +75,11 @@ center {
       font-weight:bold ;
       font-size:22px;
   }
-
-img{
-    border:3px solid white;
-    border-radius:10px;
-}
-p{
+  p{
     width: auto;
     margin-top: px;
     border: 1px solid blue;
-    box-shadow: 10px 10px silver;
+    box-shadow: 8px -10px silver;
     padding: 7px;
     background-color:black;
     color: wheat;
@@ -153,10 +87,7 @@ p{
   }
 
   p a{
-    color: red;
-  }
-  p a:hover{
-    color: gold;
+    color: skyblue;
   }
  ol{
     padding: 10px;
